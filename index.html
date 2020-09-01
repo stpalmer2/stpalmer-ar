@@ -6,12 +6,14 @@
 <a-scene embedded arjs = 'trackingMethod: best;'>
 <a-anchor hit-testing-enabled='true'>
 
-	
+	      <a-entity rotation="90 0 0">
+
 	<a-sphere src= "https://raw.githubusercontent.com/stpalmer2/hello_world/gh-pages/Particles.png" width="2.5" height="2.5" scale="1 1 1" rotation="-70 0 0" 
 		   <a-animation attribute="rotation" dur="700" to="0 360 0" easing="linear" repeat="indefinite">
           </a-animation>
 		  ></a-sphere>
-	
+	      </a-entity>
+
 	</a-text>
 	</a-anchor>
 	<a-camera-static/>
